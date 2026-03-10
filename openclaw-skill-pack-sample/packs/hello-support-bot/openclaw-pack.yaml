@@ -1,0 +1,16 @@
+name: hello-support-bot
+version: 0.1.0
+description: Minimal test pack for Yamify OpenClaw Skill Pack deploy.
+
+requiredSecrets:
+  - llmApiKey
+
+supportedProviders:
+  - openai
+  - google
+  - anthropic
+
+supportedModels:
+  - openai/gpt-4o-mini
+  - google/gemini-2.5-flash
+  - anthropic/claude-3-7-sonnet-latest
